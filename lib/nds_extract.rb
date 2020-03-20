@@ -34,5 +34,6 @@ def directors_totals(nds)
     row_index += 1 
     result[director_name] = worldwide_gross
   end
+  result
   
 end
