@@ -19,14 +19,16 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   row_index = 0 
-  binding.pry
-  pp directors_database
+  #binding.pry
+  #pp directors_database
   while row_index <
   directors_database.length do
     director_name = directors_database[row_index][:name]
     movie_index = 0 
+    worldwide_gross = 0 
     while movie_index <
     directors_database[row_index][:movies] do
+      worldwide_gross += directors_database[row_index]
     end
   end
 end
