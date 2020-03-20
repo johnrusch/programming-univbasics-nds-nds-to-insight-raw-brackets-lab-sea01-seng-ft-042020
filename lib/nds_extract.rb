@@ -23,6 +23,7 @@ def directors_totals(nds)
   #pp directors_database
   while row_index <
   directors_database.length do
+    binding.pry
     director_name = directors_database[row_index][:name]
     movie_index = 0 
     worldwide_gross = 0 
