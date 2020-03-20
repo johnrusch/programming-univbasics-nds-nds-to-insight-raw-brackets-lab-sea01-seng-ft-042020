@@ -21,21 +21,5 @@ def directors_totals(nds)
   row_index = 0 
   while row_index <
   directors_database.length do
-    element_index = 0 
-    while element_index <
-    directors_database[row_index].length do
-      binding.pry
-      pp directors_database
-      worldwide_gross = 0 
-      movie_index = 0
-      while movie_index <
-      directors_database[row_index][element_index].length do
-        worldwide_gross += directors_database[row_index][element_index][movie_index][:worldwide_gross]
-        movie_index += 1 
-      end
-      element_index += 1 
-    end
-    row_index += 1 
-  end
-  
+    
 end
