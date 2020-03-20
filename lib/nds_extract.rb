@@ -19,6 +19,8 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   row_index = 0 
+  binding.pry
+  pp directors_database
   while row_index <
   directors_database.length do
     director_name = directors_database[row_index][:name]
