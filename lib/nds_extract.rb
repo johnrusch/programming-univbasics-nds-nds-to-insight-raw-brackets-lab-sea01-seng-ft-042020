@@ -32,7 +32,7 @@ def directors_totals(nds)
       movie_index += 1 
     end
     row_index += 1 
-    result[director_name]
+    result[director_name] = worldwide_gross
   end
   
 end
